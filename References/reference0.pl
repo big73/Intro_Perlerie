@@ -6,4 +6,9 @@ my $valeurPointee = \$val;
 
 print $valeurPointee."\n";
 print $$valeurPointee."\n";
+print $val."\n";
+print "----------------------------------------\n";
 
+$$valeurPointee ++;
+print $$valeurPointee."\n";
+print $val;
